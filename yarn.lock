@@ -5855,15 +5855,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gnosis.pm/safe-deployments@npm:1.19.0":
-  version: 1.19.0
-  resolution: "@gnosis.pm/safe-deployments@npm:1.19.0"
-  dependencies:
-    semver: ^7.3.7
-  checksum: 9566179ad6e370166ea62d4f14ef0d7cd80f6e7aaa7360042973df1e6722e22d4e8845ea92f7740b01858ab514ea7000beb54569780abaf0f50279c03323db16
-  languageName: node
-  linkType: hard
-
 "@graphprotocol/graph-cli@npm:0.48.0":
   version: 0.48.0
   resolution: "@graphprotocol/graph-cli@npm:0.48.0"
@@ -10295,19 +10286,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-core-sdk-types@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "@safe-global/safe-core-sdk-types@npm:1.9.0"
-  dependencies:
-    "@ethersproject/bignumber": ^5.7.0
-    "@ethersproject/contracts": ^5.7.0
-    "@gnosis.pm/safe-deployments": 1.19.0
-    web3-core: ^1.8.1
-    web3-utils: ^1.8.1
-  checksum: 4fe3f1b8b7e3d50f2a23e31c3e7769da66b9d67abcba7234a865388767b6532ea06b0e7b9ad60689eb63889d0539f83d3361bfde58e42b6544dcafd293c9e7ef
-  languageName: node
-  linkType: hard
-
 "@safe-global/safe-core-sdk-types@npm:^1.9.1":
   version: 1.10.1
   resolution: "@safe-global/safe-core-sdk-types@npm:1.10.1"
@@ -10318,17 +10296,6 @@ __metadata:
     web3-core: ^1.8.1
     web3-utils: ^1.8.1
   checksum: f4f232982027ab0555455ac9d4c7349bbe568d633cb27e0846a28d0ff34ddd8a15d2714079753a7b8b14e0ebf528f36027317e553ef64eca5711940b28164ef9
-  languageName: node
-  linkType: hard
-
-"@safe-global/safe-core-sdk-utils@npm:^1.7.2":
-  version: 1.7.2
-  resolution: "@safe-global/safe-core-sdk-utils@npm:1.7.2"
-  dependencies:
-    "@safe-global/safe-core-sdk-types": ^1.9.0
-    semver: ^7.3.8
-    web3-utils: ^1.8.1
-  checksum: 44fa79ae811501ff074ea74b32e25ee7d6c4ad9fae39bf52d5986467f685e1a2cd5f5ce03f5e86b450170dc077cffa550fb33c69c45762014915c34300526a31
   languageName: node
   linkType: hard
 
@@ -10376,14 +10343,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-ethers-lib@npm:1.9.2":
-  version: 1.9.2
-  resolution: "@safe-global/safe-ethers-lib@npm:1.9.2"
+"@safe-global/safe-ethers-lib@npm:1.9.3":
+  version: 1.9.3
+  resolution: "@safe-global/safe-ethers-lib@npm:1.9.3"
   dependencies:
-    "@safe-global/safe-core-sdk-types": ^1.9.0
-    "@safe-global/safe-core-sdk-utils": ^1.7.2
+    "@safe-global/safe-core-sdk-types": ^1.9.1
+    "@safe-global/safe-core-sdk-utils": ^1.7.3
     ethers: 5.7.2
-  checksum: 76daf131fb12c2aa7b5d1ed3b69f0fb6a336c00d1bb3b1027ca2920be67a5c92747d79ce46ada3efa2fea4a27ade13a3b7b17ba06c7f78a44cc34433e145b99d
+  checksum: ed06315356bfd2ae6d6f16433ab4adb877fc6bfe353d8f734b8c6d52d88e5fe39befb63afe6ec97b4c052324a2920124d3bec44b113138a4efc6ca38625c4445
   languageName: node
   linkType: hard
 
@@ -16156,7 +16123,7 @@ __metadata:
     "@openzeppelin/test-helpers": 0.5.16
     "@openzeppelin/upgrades-core": 1.22.0
     "@safe-global/safe-core-sdk": 3.3.3
-    "@safe-global/safe-ethers-lib": 1.9.2
+    "@safe-global/safe-ethers-lib": 1.9.3
     "@safe-global/safe-service-client": 2.0.1
     "@uniswap/smart-order-router": 3.5.0
     "@uniswap/v2-core": 1.0.1
